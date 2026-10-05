@@ -1,0 +1,39 @@
+:root {
+  --navy: #071018;
+  --ink: #0b1524;
+  --panel: rgba(10, 22, 38, 0.86);
+  --gold: #f5c542;
+  --gold-2: #ffe08a;
+  --red: #e23d3d;
+  --mint: #3ee0a0;
+  --paper: #f4ead5;
+  --line: rgba(245, 197, 66, 0.28);
+  --text: #e8eef7;
+  --muted: #93a4bb;
+  --sans: "Segoe UI", "Trebuchet MS", Arial, sans-serif;
+  --display: "Arial Black", "Segoe UI", Impact, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+  background: var(--navy);
+  color: var(--text);
+  font-family: var(--sans);
+}
+
+body {
+  overflow: hidden;
+}
+
+button,
+input {
+  font: inherit;
+}
